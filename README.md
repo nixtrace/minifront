@@ -1,6 +1,6 @@
 # minimal-frontend
 
-An simple, minimal HTML5/CSS3/jQuery skeleton with some features and ideas from HTML5Boilerplate, HTML5Reset, Modernizr and the LESS 4 Framework.
+An simple, minimal HTML5/CSS3/jQuery skeleton with some features and ideas from [HTML5Boilerplate](http://html5boilerplate.com/), HTML5Reset, Modernizr and the LESS 4 Framework.
 
 Useful to develop static pages or small websites focusing on the UI before going into backend development.
 
