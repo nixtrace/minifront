@@ -1,0 +1,129 @@
+/* Author: badsharkco.com */
+/* Thanks to: HTML5Boilerplate, HTML5Reset, Eric Meyer */
+
+/* ------------ */
+/* RESET */
+/* ------------ */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+}
+article, aside, figure, footer, header, hgroup, nav, section { display: block; }
+/* Force 100% Font Size on Mobile */
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+/* Other Elements */
+strong { font-weight: bold; }
+blockquote, q {quotes: none;}
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+hr { display: block; height: 1px; border: 0; border-top: 1px solid rgb(0, 0, 0); margin: 1em 0; padding: 0; }
+small { font-size: 85%; }
+ul {list-style: none;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+/* Fixes */
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+/* Forms */
+label { cursor: pointer; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner, input::webkit-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:focus { outline: none; }
+/* Tables */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+
+/* ------------ */
+/* TEXT */
+/* ------------ */
+
+/* Links */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+a:focus { outline: 0; }
+a:hover, a:active { outline: 0; }
+
+
+/* Fonts */
+
+
+/* Typography */
+
+.giga {
+  
+}
+
+.mega, h1 {
+
+}
+
+.kilo, h2 {
+
+}
+
+.big, h3 {
+
+}
+
+body {
+  font: 16px/24px "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  background: #cccccc;
+}
+
+.small, small {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* ------------ */
+/* LAYOUT */
+/* ------------ */
+
+
+
+
+/* ------------ */
+/* GLOBAL */
+/* ------------ */
+
+
+
+                
+/* ------------ */
+/* CUSTOM */
+/* ------------ */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.clear {display: block; clear: both; height: 0px; line-height: 0px; margin: 0px; border: 0px; padding: 0px; visibility: hidden;}
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+.left {float: left;}
+.right {float: right;}
+
+
+/* ------------ */
+/* IE */
+/* ------------ */
+
