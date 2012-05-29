@@ -1,4 +1,4 @@
-minifront
+Minifront
 =========
 
 A simple, server agnostic, minimal HTML5/CSS3/jQuery/PHP skeleton with some features and ideas from [HTML5Boilerplate](http://html5boilerplate.com/), [HTML5Reset](http://html5reset.org/), [Modernizr](http://modernizr.com/) and the [LESS 4 Framework](http://lessframework.com/).
@@ -47,6 +47,19 @@ Just start coding the HTML5 in header.php, index.php and footer.php. Then add so
 
 ### fonts/
 - Place your web fonts here.
+
+
+## License
+
+Minifront is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
+
+
+## Credits
+
+- [LESS 4 Framework](https://github.com/jonikorpi/Less-Framework) is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
+- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+- [HTML5 Reset](https://github.com/murtaugh/HTML5-Reset)
+- [Modernizr](https://github.com/Modernizr/Modernizr) is dual-licensed under the BSD and MIT Licenses.
 
 
 
