@@ -15,10 +15,38 @@ Just start coding the HTML5 in header.php, index.php and footer.php. Then add so
 
 ### header.php
 - Conditional IE comments to avoid loading different external stylesheets.
-- Minimal custom modernizr.js HTML5 Shim.
-- Simple title variable specified in the index.php file.
+- Minimal custom modernizr.js HTML5 IE Shiv.
 
 ### index.php
+- Page template, you can just duplicate and rename it to add a new page.
 - Title variable passed to header.php
 
-...
+### footer.php
+- Javascript resources loaded in the footer to speed up page loading.
+
+### css/style.css
+- General reset rules.
+- Text section (Modify according to your needs)
+- Layout section (Write your layout specific CSS here)
+- Global section (Write global CSS classes here)
+- Custom section (image replacement and clear float classes)
+- IE section (Write here IE specific CSS)
+
+### js/plugins.js
+- Place all your jQuery plugins here.
+
+### js/start.js
+- Write your own Javascript here.
+
+### js/libs
+- The jQuery library.
+- The Modernizr HTML5 IE Shiv.
+
+### img/
+- Place your images here.
+
+### fonts/
+- Place your web fonts here.
+
+
+
