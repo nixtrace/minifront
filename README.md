@@ -8,7 +8,7 @@ Useful to develop static pages or small websites focusing on the UI before going
 
 ## How it works
 
-Just start coding the HTML5 in header.php, index.php and footer.php. Then add some CSS3 awesomeness to css/style.css, throw some jQuery plugins in js/plugins.js, fight with your semicolons in js/start.js and you'll be ready to go writing some Ruby.
+Just start coding the HTML5 in header.php, index.php and footer.php. Then add some CSS3 awesomeness to css/style.scss, throw some jQuery plugins in js/plugins.js, fight with your semicolons in js/start.js and you'll be ready to go writing some Ruby.
 
 
 ## Filesystem Structure
@@ -24,11 +24,13 @@ Just start coding the HTML5 in header.php, index.php and footer.php. Then add so
 ### footer.php
 - Javascript resources loaded in the footer to speed up page loading.
 
-### css/style.css
+### css/style.scss
+- SCSS support.
 - General reset rules.
-- Text section (Modify according to your needs)
+- Typography section (Modify according to your needs)
+- Variables section (Add SCSS variables here)
 - Layout section (Write your layout specific CSS here)
-- Global section (Write global CSS classes here)
+- Objects section (Write global OOCSS classes here)
 - Custom section (image replacement and clear float classes)
 - IE section (Write here IE specific CSS)
 
