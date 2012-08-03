@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<meta name="description" content=" Description " />
+	<meta name="description" content="Description" />
 	<meta name="author" content="BadShark Communications" />
 
 	<link rel="stylesheet" href="css/style.css" />
