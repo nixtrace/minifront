@@ -4,19 +4,19 @@
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-	
-	<meta name="description" content="Description" />
-	<meta name="author" content="BadShark Communications" />
+  <meta charset="utf-8">
+  
+  <meta name="description" content="Description" />
+  <meta name="author" content="BadShark Communications" />
 
-	<link rel="stylesheet" href="css/style.css" />
-	<script src="js/libs/modernizr.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/libs/modernizr.js"></script>
 
-	<title> <?php echo $title; ?> </title>
+  <title> <?php echo $title; ?> </title>
 </head>
 
 <body>
 
-	<header>
-		
-	</header>
+  <header>
+    
+  </header>

@@ -2,8 +2,8 @@
 
 <?php include 'header.php' ?>
 
-	<section class="main">
+  <section class="main">
 
-	</section>
+  </section>
 
 <?php include 'footer.php'; ?>
