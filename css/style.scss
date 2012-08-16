@@ -22,6 +22,12 @@ ul {list-style:none;}
 label {cursor:pointer;}
 button,input[type="button"],input[type="submit"]{cursor:pointer;}
 
+/* ------------ */
+/* VARIABLES */
+/* ------------ */
+
+$black = #000000;
+
 
 /* ------------ */
 /* TYPOGRAPHY */
@@ -55,13 +61,6 @@ a {
   text-decoration: none;
 }
 a:hover { text-decoration: underline; }
-
-
-/* ------------ */
-/* VARIABLES */
-/* ------------ */
-
-$black = #000000;
 
 
 /* ------------ */
