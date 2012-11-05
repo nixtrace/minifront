@@ -30,6 +30,11 @@ button,input[type="button"],input[type="submit"]{cursor:pointer;}
 
 $black: #000000;
 
+%small {
+  font-size: 13px;
+  line-height: 18px;
+}
+
 
 /* ------------ */
 /* TYPOGRAPHY */
@@ -54,8 +59,7 @@ body {
 }
 
 .small, small {
-  font-size: 13px;
-  line-height: 18px;
+  @extend %small;
 }
 
 a {
@@ -97,11 +101,19 @@ a.button, .button {
 
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .clear {display: block; clear: both; height: 0px; line-height: 0px; margin: 0px; border: 0px; padding: 0px; visibility: hidden;}
-.cf:before, .cf:after { content: ""; display: table; }
-.cf:after { clear: both; }
-.cf { zoom: 1; }
 .left {float: left;}
 .right {float: right;}
+%clearfix {
+  zoom: 1;
+  &:before {
+    content: ""; display: table;   
+  }
+  &:after {
+    content: ""; display: table;
+    clear: both;
+  }
+}
+
 
 
 /* ------------ */
