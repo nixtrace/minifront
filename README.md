@@ -15,6 +15,7 @@ Just start coding the HTML5 in index.html. Then add some CSS3 awesomeness to css
 
 ### index.html
 - Conditional IE comments to avoid loading different external stylesheets.
+- Basehold.it baseline overlay for vertical rhythm.
 - Minimal custom modernizr.js HTML5 IE Shiv.
 - Page template, you can just duplicate and rename it to add a new page.
 - Javascript resources loaded in the footer to speed up page loading.
