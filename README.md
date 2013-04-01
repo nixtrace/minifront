@@ -21,6 +21,7 @@ Just start coding the HTML5 in index.html. Then add some CSS3 awesomeness to css
 
 ### css/style.scss
 - SCSS support.
+- Vertical grid with basehold.it as background.
 - General reset rules.
 - Typography section (Modify according to your needs)
 - Variables section (Add SCSS variables here)
