@@ -24,16 +24,12 @@ ul {list-style:none;}
 label {cursor:pointer;}
 button,input[type="button"],input[type="submit"]{cursor:pointer;}
 
+
 /* ------------ */
-/* VARIABLES */
+/* COLORS */
 /* ------------ */
 
 $black: #000000;
-
-%small {
-  font-size: 13px;
-  line-height: 18px;
-}
 
 
 /* ------------ */
@@ -41,15 +37,23 @@ $black: #000000;
 /* ------------ */
 
 h1 {
-
+  font-size: 51px;
+  line-height: 72px;
+  margin-bottom: 24px;
 }
 
 h2 {
-
+  font-size: 28px;
+  line-height: 48px;
 }
 
 h3 {
+  font-size: 21px;
+  line-height: 24px;
+}
 
+p {
+  margin-bottom: 24px;
 }
 
 body {
@@ -62,10 +66,15 @@ body {
   @extend %small;
 }
 
+%small {
+  font-size: 13px;
+}
+
 a {
   color: #000000;
   text-decoration: none;
 }
+
 a:hover { text-decoration: underline; }
 
 
@@ -90,23 +99,27 @@ footer {
 /* OBJECTS */
 /* ------------ */
 
-a.button, .button {
+.button,
+%button {
 
 }
 
-                
-/* ------------ */
-/* CUSTOM */
-/* ------------ */
+%replace {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
 
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
-.clear {display: block; clear: both; height: 0px; line-height: 0px; margin: 0px; border: 0px; padding: 0px; visibility: hidden;}
-.left {float: left;}
-.right {float: right;}
 %clearfix {
   zoom: 1;
   &:before {
-    content: ""; display: table;   
+    content: "";
+    display: table;
   }
   &:after {
     content: ""; display: table;
