@@ -82,6 +82,13 @@ a:hover { text-decoration: underline; }
 /* LAYOUT */
 /* ------------ */
 
+// Desktop.
+.container {
+  width: 896px;
+  padding: 0px 48px;
+  margin: 0px auto;
+}
+
 header {
 
 }
@@ -94,6 +101,35 @@ footer {
 
 }
 
+// Tablet.
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .container {
+    width: 712px;
+    padding: 0px 28px;
+  }
+
+}
+
+// Portrait mobile.
+@media only screen and (max-width: 767px) {
+
+  .container {
+    width: 252px;
+    padding: 0px 34px;
+  }
+
+}
+
+// Landscape mobile.
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  .container {
+    width: 436px;
+    padding: 0px 22px;
+  }
+
+}
 
 /* ------------ */
 /* OBJECTS */
