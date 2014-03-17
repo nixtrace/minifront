@@ -5,18 +5,15 @@ A simple, server agnostic, minimal HTML5/CSS3/jQuery skeleton with some features
 
 Useful to develop static pages or small websites focusing on the UI before going into back-end development.
 
-
-## How it works
+## Flow.
 
 Just start coding the HTML5 in index.html. Then add some CSS3 awesomeness to css/style.scss, throw some jQuery plugins in js/plugins.js, fight with your semicolons in js/start.js and you'll be ready to go writing some Ruby.
 
-
-## Filesystem Structure
+## Filesystem Structure.
 
 ### index.html
-- Conditional IE comments to avoid loading different external stylesheets.
-- Minimal custom modernizr.js HTML5 IE Shiv.
-- Page template, you can just duplicate and rename it to add a new page.
+- Minimal custom modernizr.js with HTML5, SVG and Media Queries support..
+- Page template. You can just duplicate and rename it to add a new page.
 - Javascript resources loaded in the footer to speed up page loading.
 
 ### css/style.scss
@@ -24,21 +21,19 @@ Just start coding the HTML5 in index.html. Then add some CSS3 awesomeness to css
 - Vertical grid with basehold.it as background.
 - General reset rules.
 - Typography section (Modify according to your needs)
-- Variables section (Add SCSS variables here)
+- Colors section (Add SCSS colors here)
 - Layout section (Write your layout specific CSS here)
 - Objects section (Write global OOCSS classes here)
-- Custom section (image replacement and clear float classes)
-- IE section (Write here IE specific CSS)
 
 ### js/plugins.js
 - Place all your jQuery plugins here.
 
 ### js/start.js
-- Write your own Javascript here.
+- Write your own JavaScript here.
 
 ### js/libs
 - The jQuery library.
-- The Modernizr HTML5 IE Shiv.
+- The Modernizr library.
 
 ### img/
 - Place your images here.
