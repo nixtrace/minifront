@@ -7,6 +7,9 @@
 /* ------------ */
 
 $black: #000000;
+$dark: #333333;
+$light: #ececec;
+$white: #ffffff;
 
 
 /* ------------ */
@@ -35,20 +38,18 @@ p {
 
 body {
   font: 16px/24px "Helvetica Neue", Arial, sans-serif;
-  color: #333333;
-  background: #ffffff url('http://basehold.it/i/24');
+  color: $dark;
+  background: $white url('http://basehold.it/i/24');
 }
 
-.small, small {
-  @extend %small;
-}
-
+.small,
+small,
 %small {
   font-size: 13px;
 }
 
 a {
-  color: #000000;
+  color: $black;
   text-decoration: none;
 }
 
@@ -56,10 +57,9 @@ a:hover { text-decoration: underline; }
 
 
 /* ------------ */
-/* LAYOUT */
+/* OBJECTS */
 /* ------------ */
 
-// Desktop.
 .container {
   width: 896px;
   padding: 0px 48px;
@@ -77,40 +77,6 @@ header {
 footer {
 
 }
-
-// Tablet.
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-  .container {
-    width: 712px;
-    padding: 0px 28px;
-  }
-
-}
-
-// Portrait mobile.
-@media only screen and (max-width: 767px) {
-
-  .container {
-    width: 252px;
-    padding: 0px 34px;
-  }
-
-}
-
-// Landscape mobile.
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-  .container {
-    width: 436px;
-    padding: 0px 22px;
-  }
-
-}
-
-/* ------------ */
-/* OBJECTS */
-/* ------------ */
 
 .button,
 %button {
@@ -138,4 +104,38 @@ footer {
     content: ""; display: table;
     clear: both;
   }
+}
+
+/* ------------ */
+/* RESPONSIVE */
+/* ------------ */
+
+/// Tablet.
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .container {
+    width: 712px;
+    padding: 0px 28px;
+  }
+
+}
+
+// Portrait mobile.
+@media only screen and (max-width: 767px) {
+
+  .container {
+    width: 252px;
+    padding: 0px 34px;
+  }
+
+}
+
+// Landscape mobile.
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  .container {
+    width: 436px;
+    padding: 0px 22px;
+  }
+
 }
